@@ -1,0 +1,8 @@
+spec:
+  name: vbc-tools
+  services:
+  - environment_slug: python
+    git:
+      branch: main
+      repo_clone_url: https://github.com/liberaltech/vbc-tools.git
+    name: vbc-tools
