@@ -6,3 +6,46 @@ spec:
       branch: main
       repo_clone_url: https://github.com/liberaltech/vbc-tools.git
     name: vbc-tools
+    envs:
+    # - key: BUILD_ONLY_VAR
+    #   scope: BUILD_TIME
+    #   value: hello world
+    # - key: RUNTIME_ONLY_VAR
+    #   scope: RUN_TIME
+    #   value: i'm a little teapot
+    - key: PASSWORD
+      scope: RUN_TIME
+      value:
+    - key: USERNAME
+      scope: RUN_TIME
+      value:
+    - key: CLIENT_ID
+      scope: RUN_TIME
+      value:
+    - key: CLIENT_SECRET
+      scope: RUN_TIME
+      value:
+    - key: VONAGE_BASE_URL
+      scope: RUN_TIME
+      value: "https://api.vonage.com"
+    - key: COMPANY_CALL_RECORDINGS_URL
+      scope: RUN_TIME
+      value: "/t/vbc.prod/call_recording/v1/api/accounts/self/company_call_recordings"
+    - key: VONAGE_URL
+      scope: RUN_TIME
+      value: "https://api.vonage.com/t/vbc.prod/call_recording/v1/api/accounts/self/company_call_recordings"
+    - key: ACCESS_KEY_ID
+      scope: RUN_TIME
+      value:
+    - key: SECRET_ACCESS_KEY
+      scope: RUN_TIME
+      value:
+    - key: BUCKET_NAME
+      scope: RUN_TIME
+      value:
+    - key: ENDPOINT_URL
+      scope: RUN_TIME
+      value:
+    - key: REGION_NAME
+      scope: RUN_TIME
+      value:
